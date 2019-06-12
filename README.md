@@ -2,7 +2,7 @@
 
 Welcome! This JMP is special for you! Take a look what you can find here:
 
-* Java with Logic
+* [Java with Logic](/java-logic)
 * Java with OOP
 * Java with Principles and Laws
 * Java with Building Tools
