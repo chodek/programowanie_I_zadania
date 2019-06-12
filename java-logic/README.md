@@ -1,3 +1,3 @@
-# Picture Logic Challenge
+# Challenges
 
-Please check issue: #1
+### Picture Logic: issue #1
