@@ -1,8 +1,8 @@
 [[JMP]](https://git.epam.com/Edson_Prestes/java-mentoring-program/)
 
-# Java Logic
+# Java with Logic
 
-Welcome! Here we can find your first challenges with Java. So, please, try one by one and enjoy! :D
+Welcome to Java with Logic! Here we can find your first challenges with Java. So, please, try one by one and enjoy! :D
 
 #### Picture Logic
 
