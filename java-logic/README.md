@@ -4,4 +4,7 @@
 
 Welcome! Here we can find your first challenges with Java. So, please, try one by one and enjoy! :D
 
-#### Picture Logic: issue #1
+#### Picture Logic
+
+* Issue #1
+* Code: [PictureLogic.java](https://git.epam.com/Edson_Prestes/java-mentoring-program/tree/master/java-logic/src/main/java/com/epam/mentoring/java/challange)
