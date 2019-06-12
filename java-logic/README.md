@@ -7,4 +7,4 @@ Welcome to Java with Logic! Here we can find your first challenges with Java. So
 #### Challenge of Figures
 
 * Issue #1
-* Code: [FiguresLogic.java](https://git.epam.com/Edson_Prestes/java-mentoring-program/blob/master/java-logic/src/main/java/com/epam/mentoring/java/challange/PictureLogic.java)
+* Code: [FiguresLogic.java](./src/main/java/com/epam/mentoring/java/challange/FiguresLogic.java)
