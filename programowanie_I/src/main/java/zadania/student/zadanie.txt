@@ -1,0 +1,8 @@
+Stwórz klasę Student która posiada pola:
+nr indeksu
+name
+nazwisko
+płeć (literka, K lub M)
+
+Wygeneruj dla klasy gettery, settery, konstruktor ze wszystkimi parametrami i domyślny.
+Stwórz 3 instancje obiektu student i wypisz ich parametry na ekran metodami getterów. Co najmniej jednemu obiektowi ustaw parametry używając setterów.

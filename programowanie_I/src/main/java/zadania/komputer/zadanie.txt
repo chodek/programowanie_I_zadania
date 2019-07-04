@@ -1,0 +1,10 @@
+Stwórz klasę Komputer która posiada pole:
+potrzebna moc (int)
+producent( string)
+typ proceseora
+(enum o nazwie TypProcesora z wartościami: WIELORDZENIOWY/JEDNORDZENIOWY)
+Stwórz klasę dziedziczącą Laptop która posiada dodatkowe pole:
+wielkosc matrycy (double)
+czy posiada retine (boolean)
+Stwórz kilka obiektów typu Laptop i typu Komputer. Umieść je w tablicy, a następnie wypisz pętlą while.
+*Dla laptopów (żeby sprawdzić czy komputer jest Laptopem zastosuj instanceof) wypisz rowniez ich wielkosc matrycy.

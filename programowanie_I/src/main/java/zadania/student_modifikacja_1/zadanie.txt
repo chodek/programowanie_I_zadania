@@ -1,0 +1,6 @@
+Modyfikacja do zadania Student:
+Stwórz oddzielną klasę main (np. Main) w której użytkownik korzystający z aplikacji 'kreuje' obiekt studenta.
+Czyli: uruchamiam aplikację i ona pyta mnie o name, nazwisko, numer indeksu (6 cyfrowa liczba) i płeć (1 char).
+Jeśli podałem złe dane, to poproś użytkownika o powtórzenie. Kiedy wszystkie dane są poprawne stwórz
+obiekt Studenta.
+Następnie wypisz wszystkie informacje o studencie wykorzystując gettery.

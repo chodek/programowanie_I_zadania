@@ -1,0 +1,4 @@
+Modyfikacja do zadania Student:
+Napisz w klasie student metodę "przedstawSię():void" która wypisuje wszystkie parametry w postaci ślicznego string'a. Np.:
+Cześć! Jestem Janek Kowalski, jestem mężczyzną i mój numer indeksu to: 666666.
+Na końcu maina (modyfikacja #1) użyj tej metody i wypisz powitanie.
