@@ -7,5 +7,9 @@ public class Main {
         mojaData.wyswietlDate();
         mojaData.wyswietlDate2();
         mojaData.wyswietlDate3();
+
+
+
+
     }
 }

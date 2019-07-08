@@ -1,5 +1,8 @@
 package zadania.daty;
 
+import org.joda.time.DateTime;
+import org.joda.time.format.DateTimeFormat;
+
 public class MojaData {
     private int days, years;
     private Month months;
@@ -44,5 +47,9 @@ public class MojaData {
 
     public Month getMonths() {
         return months;
+    }
+
+    public DateTime toDateTimeFormat(){
+        return DateTime.parse(""+this.getDays()+"/"+(this.getMonths().ordinal()+1)+"/"+this.getYears(), DateTimeFormat.forPattern("dd/MM/yyyy"));
     }
 }

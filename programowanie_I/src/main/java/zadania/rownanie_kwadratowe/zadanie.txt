@@ -1,0 +1,4 @@
+Stwórz program obliczający równanie kwadratowe (http:matematyka.pisz.pl/strona/54.html). Na wejściu użytkownik podaje wartość zmiennych A, B i C.
+Do działania programu stwórz klasę QuadraticEquation a w nim pola ‘a’, ‘b’, ‘c’. Zainicjuj wartości w konstruktorze.
+Stwórz metody do pobierania getX1 oraz getX2 które obliczają wartości i zwracają w wyniku.
+Jeśli delta ma niepoprawną wartość, to metoda rzuca wyjątek.

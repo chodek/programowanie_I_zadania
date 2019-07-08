@@ -1,5 +1,7 @@
 package zadania.daty_modyfikacja;
 
+import org.joda.time.DateTime;
+import org.joda.time.Days;
 import zadania.daty.MojaData;
 
 import java.time.LocalDate;
@@ -33,34 +35,10 @@ public class Wydarzenie {
     }
 
     public int ileZostaloDni() {
-        Date date = new Date();
-        LocalDate today = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-        int yearsDiff = ileZostaloLat();
-        int leapYearsInYearsDiff = countLeapYears(this.dataWydarzenia, today);
-
-        int monthsDiff = ileZostaloMiesiecy();
-        return yearsDiff * 12 + Math.abs(monthsDiff);
+        DateTime now = new DateTime();
+        int days = Days.daysBetween(now.toLocalDate(), this.dataWydarzenia.toDateTimeFormat().toLocalDate()).getDays(); // Aby uzyc tego rozwiazania, do pom.xml dodalem dependency do bilbioteki Joda-Time ;)
+        return days;
     }
 
-    private static int countLeapYears(MojaData dataWydarzenia, LocalDate today) {
-        int count = 0;
-        int startingYear, stopYear;
-        if (dataWydarzenia.getMonths().ordinal() + 1 > 2) {
-            startingYear = dataWydarzenia.getYears() + 1;
-        } else {
-            startingYear = dataWydarzenia.getYears();
-        }
-        if (today.getMonth().getValue() < 2) {
-            stopYear = today.getYear() - 1;
-        } else {
-            stopYear = today.getYear();
-        }
-        for (int i = startingYear; i < stopYear; i++) {
-            if ((i % 4 == 0 && i % 100 != 0) || i % 400 == 0) {
-                count++;
-            }
-        }
-        return count;
-    }
 }
 
