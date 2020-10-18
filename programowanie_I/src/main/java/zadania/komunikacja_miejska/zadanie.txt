@@ -1,1 +1,22 @@
 https://www.mimuw.edu.pl/~kozubek/teaching/2010-2011/po/zajecia06/laboratorium06.pdf
+
+Zaprojektuj hierarchię klas opisujących pojazdy komunikacji miejskiej. Wyraź w tej hierarchii następujące fakty:
+• wszystkie pojazdy komunikacji miejskiej (k. m.) są pojazdami,
+• komunikacja miejska używa tramwajów i autobusów,
+• pojazdy są garażowane w zajezdniach, odpowiednio tramwajowych i autobusowych,
+• każdy pojazd zna swoją szybkość maksymalną,
+• każdy pojazd k. m. zna swój numer,
+• każdy pojazd k. m. zna swoją zajezdnię,
+• każdy tramwaj jest zestawem 1 do 3 wagonów (i wie, z ilu wagonów się składa),
+• każdy autobus wie, ile zużył paliwa w bieżącym miesiącu,
+• każda zajezdnia zna swoją nazwę,
+• każda zajezdnia wie, jakie pojazdy do niej należą,
+• każda zajezdnia ma nazwę.
+Każdy pojazd musi umieć podać swój opis w postaci napisu. Opis ma zawierać wszystkie
+informacje, które zna dany pojazd (np. numer, czy szybkość maksymalną). Opis zajezdni
+to nazwa zajezdni, jej typ i opisy poszczególnych pojazdów. Zajezdnia autobusowa podaje
+dodatkowo sumaryczne zużycie paliwa w bieżącym miesiącu, a tramwajowa ogólną liczbę
+wagonów.
+Napisz program w Javie, który utworzy kilka obiektów reprezentujących różne pojazdy
+i dwie zajezdnie (autobusową i tramwajową), przydzieli pojazdy do zajezdni, a następnie
+wypisze opis obu zajezdni.
